@@ -1,0 +1,30 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "cli": "^1.0.1",
+    "css-loader": "^6.8.1",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.3",
+    "vite": "^4.4.11",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "wepback": "^1.0.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
